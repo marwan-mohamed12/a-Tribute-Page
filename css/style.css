@@ -70,6 +70,10 @@ ul li{
     margin: 0 auto;
 }
 
+#tribute-link{
+    color: #477ca7;
+}
+
 @media (max-width: 501px){
     #title{
         font-size: 2rem;
@@ -92,6 +96,7 @@ ul li{
     }
     .achive-p, .qoute-ref{
         font-size: 12px;
+        margin: 0 20px;
     }
 
     .footer{
