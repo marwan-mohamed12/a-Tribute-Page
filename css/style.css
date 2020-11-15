@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+#main{
+    background-color: #eee;
+    margin: 30px 15px;
+    border-radius: 5px;
+}
+
+#title{
+    margin: 0;
+    padding-top: 40px;
+    font-size: 3rem;
+}
+
+.heading-paragraph{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#img-div{
+    background-color: #fff;
+    margin: 10px 15px;
+}
+
+#image{
+    max-width: 98%;
+}
+
+#image-caption{
+    padding: 10px 0 20px;
+    margin: 0 10px;
+}
+
+#tribute-info{
+    padding: 30px 0;;
+}
+
+ul{
+    text-align: left;
+    max-width: 560px;    
+    margin: 0 auto;
+}
+
+ul li{
+    margin: 20px 10px;
+}
+
+.year{
+    font-weight: bold;
+}
+
+.achive-p, .qoute-ref{
+    max-width: 560px; 
+    margin: 0 auto;
+    text-align: left;
+    font-style: italic ;
+}
+
+.footer{
+    padding: 30px 0;
+    font-size: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 501px){
+    #title{
+        font-size: 2rem;
+    }
+
+    .heading-paragraph{
+        font-size: 1rem;
+    }
+
+    #image-caption{
+        font-size: 12px;
+    }
+
+    #tribute-info{
+        font-size: 1rem;
+    }
+
+    ul li{
+        font-size: 12px;
+    }
+    .achive-p, .qoute-ref{
+        font-size: 12px;
+    }
+
+    .footer{
+        font-size: 14px;
+    }
+}
